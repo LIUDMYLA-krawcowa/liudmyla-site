@@ -1,0 +1,67 @@
+body {
+    background-image: url("https://krawcowa.kalisz.pl/wp-content/uploads/2024/03/threads-8139600_1280.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+nav{
+    background-color:#444;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: antiquewhite;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+header {
+    text-align: center;
+    padding: 20px 5px;
+    background-color: whitesmoke;
+}
+
+header h1 {
+    font-size: 30px;
+    color: #000;
+}
+footer {
+    text-align: center;
+    padding: 5px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.content-box {
+    background-color: rgba(245, 245, 245, 0.85);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+
+}
